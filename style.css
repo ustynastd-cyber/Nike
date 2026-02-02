@@ -5,7 +5,6 @@
 }
 
 body {
-  background: #012D63;
   color: white;
   margin: 0;
 }
@@ -29,6 +28,7 @@ margin: 0 auto;
 .header {
   padding: 20px 0;
   font-family: "Playfair Display", sans-serif;
+  background: #012D63;
 }
 
 .nav {
@@ -54,9 +54,10 @@ margin: 0 auto;
 
 /* HERO */
 .hero {
-  background: url(./img/Group\ 37\ \(1\)\ 1.png)
-  no-repeat;
-  padding: 290px;
+  background: url(./img/Hero.png)
+   no-repeat;
+   background-size: cover;
+  padding: 290px 0;
    font-family: "Playfair Display", sans-serif;
 }
 
@@ -82,21 +83,21 @@ margin: 0 auto;
 
 .hero-text button {
   padding: 12px 30px;
-  background: linear-gradient(90deg, #7f5cff, #ff63c3);
+  background-color: #8E32C6;
   border: none;
-  border-radius: 20px;
   color: white;
   cursor: pointer;
 }
 
-.hero-img {
-  width: 500px;
-}
 
 /* BENEFITS */
 .benefits {
-  padding: 60px 0;
+  padding: 100px 0;
+  margin: 2px 0;
   font-family: "Playfair Display", sans-serif;
+  background: url(./img/Group\ 8\ 1.png)
+  no-repeat;
+  background-size: cover;
 }
 
 .benefits-box {
@@ -112,10 +113,14 @@ margin: 0 auto;
 
 /* REVIEWS */
 .reviews {
-  padding: 100px 0;
+  padding: 260px 0;
+  margin: 2px 0;
   text-align: center;
+    background: url(./img/Цветы.png)
+  no-repeat;
   background: url(./img/Group\ 6\ 1.png)
   no-repeat;
+  background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
 
@@ -130,9 +135,9 @@ margin: 0 auto;
   border-radius: 15px;
 }
 
-.r1 { background: linear-gradient(135deg, #36d1dc, #5b86e5); }
-.r2 { background: linear-gradient(135deg, #cc2b5e, #753a88); }
-.r3 { background: linear-gradient(135deg, #f7971e, #ffd200); }
+.r1 { background: linear-gradient(135deg, #00E5E6 7%, #00A8F7 26%, #9A76F9 63%, #CC5EC2 100%); }
+.r2 { background: linear-gradient(135deg, #FF68B4 0%, #FF45E1 26%, #CE3AFF 63%, #8961FF 100%); }
+.r3 { background: linear-gradient(135deg, #FFE128 0%, #FF9B5C 30%, #FF8381 63%, #FF5489 100%); }
 
 /* ORDER */
 .order {
@@ -140,6 +145,7 @@ margin: 0 auto;
   text-align: center;
   background: url(./img/Group\ 2\ 1.png)
   no-repeat;
+  background-size: cover;
   font-family: "Playfair Display", sans-serif;
 }
 
@@ -158,15 +164,14 @@ margin: 0 auto;
 
 .order-box button {
   padding: 12px 30px;
-  background: linear-gradient(90deg, #7f5cff, #ff63c3);
-  border: none;
-  border-radius: 20px;
+  background-color: #8E32C6;
   color: white;
+  border-radius: 8px;
 }
 
 /* FOOTER */
 .footer {
-  background-color: #0b1533; /* однотонний темно-синій */
+  background-color: #0b1533;
   padding: 60px 0;
   font-family: "Playfair Display", sans-serif;
 }
@@ -183,7 +188,7 @@ margin: 0 auto;
   margin-bottom: 10px;
 }
 
-.footer__copy {
+.footer__copy {                                                               
   margin-top: 20px;
 }
 
