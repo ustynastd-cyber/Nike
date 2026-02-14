@@ -7,14 +7,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./сss/style.css">
     <title>ColoRawe</title>
 </head>
 <body>
     <header class="header">
   <div class="container nav">
-    <img src="./img/ed69f7fa91929ff49ecafac2bfd72360 2.png" alt="logo">
+    <img src="./img/logo.png" alt="logo">
     <nav>
       <a href="#" class="special">Main page</a>
       <a href="#">Benefits</a>
@@ -22,9 +23,14 @@
       <a href="#">Reviews</a>
       <a href="#">Contacts</a>
       <a href="#">Order</a>
-      <a href="#">Ua</a>
-      <a href="#" class="special">Eng</a>
     </nav>
+
+    <ul class="language">
+      <li class="language__item">
+        <a href="#">Ua</a>
+      <a href="#" class="special">Eng</a>
+      </li>
+    </ul>
   </div>
 </header>
 
@@ -32,6 +38,7 @@
 <section class="hero">
   <div class="container hero-content">
     <div class="hero-text">
+      <img class="hero-img-2" src="./img/logo.png" alt="logo">
       <div class="logo">С&R</div>
       <h1>ColoRawe</h1>
       <h2>Your dream Nike</h2>
@@ -51,17 +58,17 @@ Good luck finding your way in the world of custom sneakers.
     <div class="benefit">
         <p>Premium</p>
          <p>Quality</p>
-      <img src="./img/Звёзды 1.png" alt="Stars">
+      <img src="./img/Зірки.png" alt="Stars">
     </div>
     <div class="benefit">
-      <img src="./img/Краски 1.png" alt="Paint">
+      <img src="./img/Фарби.png" alt="Paint">
      <p>Indelible</p>
        <p>paint</p>
     </div>
     <div class="benefit">
         <p>Fast</p>
          <p>shipping</p>
-      <img src="./img/Грузан 1.png" alt="Shipping">
+      <img src="./img/Фура.png" alt="Shipping">
     </div>
   </div>
 </section>
@@ -77,9 +84,11 @@ Good luck finding your way in the world of custom sneakers.
       </div>
 
       <div class="img-text">
-      <img class="review-img" src="./img/Ellipse 17.png" alt="John Teylor">
-      <p>John Teylor</p>
+      <img class="review-img" src="./img/Elipse 1.png" alt="John Teylor">
+      <div class="img-text-2">
+      <p class="comment-autor">John Teylor</p>
       <p class="date-2">With us from 2018</p>
+      </div>
       </div>
      </li>
 
@@ -90,9 +99,11 @@ Good luck finding your way in the world of custom sneakers.
         </div>
 
         <div class="img-text">
-        <img class="review-img" src="./img/Ellipse 18.png" alt="Elizabeth Garsia">
-        <p>Elizabeth Garsia</p>
+        <img class="review-img" src="./img/Ellipse 2.png" alt="Elizabeth Garsia">
+        <div class="img-text-2">
+        <p class="comment-autor">Elizabeth Garsia</p>
         <p class="date-2">With us from 2020</p>
+        </div>
         </div>
       </li> 
 
@@ -103,8 +114,9 @@ Good luck finding your way in the world of custom sneakers.
           </div>
 
           <div class="img-text">
-        <img class="review-img" src="./img/Ellipse 19.png" alt="Tom Maquare">
-        <p>Tom Maquare</p>
+        <img class="review-img" src="./img/Ellipse 3.png" alt="Tom Maquare">
+        <div class="img-text-2">
+        <p class="comment-autor">Tom Maquare</p>
         <p class="date-2">With us from 2019</p>
           </div>
         </li>
@@ -120,8 +132,6 @@ Good luck finding your way in the world of custom sneakers.
     <div class="order-email">
       <input type="email" placeholder="Write your email">
     </div>
-
-
 
     <input type="text" placeholder="Your country">
     <input type="text" placeholder="Your city">
@@ -141,19 +151,18 @@ Good luck finding your way in the world of custom sneakers.
       <p>Advertising questions?</p>
 
       <p class="footer__copy">2022 ColoRawe © All rights reserved</p>
-      <p>United States</p>
-    </div>
+      <p class="footer__copy">United States</p>
+</div>
 
-    <div class="footer__right">
-      <p>ColoRawe_support@gmail.com</p>
-      <p>ColoRawe_Cooperation@gmail.com</p>
-      <p>ColoRawe_Advertising@gmail.com</p>
+ <div class="footer__right">
+      <a href="mailto:ColoRawe_support@gmail.com">ColoRawe_support@gmail.com</a>
+      <a href="mailto:ColoRawe_Cooperation@gmail.com">ColoRawe_Cooperation@gmail.com</a>
+      <a href="mailto:ColoRawe_Advertising@gmail.com">ColoRawe_Advertising@gmail.com</a>
 
       <img src="./img/logo.png" alt="logo">
-      <div class="footer__logo">C&R</div>
-    </div>
-
-  </div>
+     <p class="footer__logo">C&R</p>
+         </div>
+</div>
 </footer>
 </body>
 </html>
